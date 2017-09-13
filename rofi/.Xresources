@@ -1,1 +1,21 @@
-/home/cat/.Xresources
+! Rofi configuration
+rofi.modi: run
+
+rofi.color-enabled: true
+rofi.font: ypn envypn 10
+
+!                  Background   Foreground  Background Alternate    Highlight Background    Highlight Foreground
+rofi.columns: 1
+rofi.color-window: #141a30, #141a30, #141a30
+rofi.color-normal: #141a30, #f9e3e3, #141a30, #953344, #f9e3e3
+rofi.color-active: #682c38, #f9e3e3, #682c38, #f9e3e3, #682c38
+rofi.color-urgent: #682c38, #141a30, #682c38, #682c38, #141a30
+
+rofi.fake-transparency: true
+rofi.hide-scrollbar: true
+rofi.disable-history: true
+rofi.bw: 0
+rofi.fullscreen: false
+rofi.lines: 5
+rofi.padding: 30
+rofi.separator-style: none
