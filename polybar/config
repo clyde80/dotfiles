@@ -19,6 +19,7 @@ width = 100%
 height = 30
 monitor = LVDS-1
 font-0 = ypn envypn:size 8
+font-1 = FontAwesome:size 8
 
 background = ${colors.black}
 foreground = ${colors.white}
@@ -130,6 +131,7 @@ format-foreground = ${colors.white}
 format-padding = ${dims.padding}
 label = %output%
 
+
 [module/cpu]
 type = internal/cpu
 interval = 2
@@ -137,3 +139,30 @@ format-padding = ${dims.padding}
 format-foreground = ${colors.white}
 format-background = ${colors.black}
 label = CPU: %percentage%%
+
+[bar/bottom]
+bottom = true
+
+width = 100%
+height = 30
+monitor = LVDS-1
+font-0 = ypn envypn:size 8
+font-1 = FontAwesome:size 5
+
+background = ${colors.black}
+foreground = ${colors.white}
+
+modules-center = dna
+
+line-size = 3
+
+[module/dna]
+type = custom/script
+exec = dnapolybar -a 9 -d 1.00
+tail = true
+
+format = <label>
+format-background = ${colors.black}
+format-foreground = ${colors.white}
+format-padding = ${dims.padding}
+label = %output%
