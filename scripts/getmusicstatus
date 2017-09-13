@@ -4,19 +4,34 @@
 #
 #   Print the artist and song name of the song playing in CMUS or MPD.
 #
+#   VIEW NOTES IN DEPENDENCIES BELOW
+#
 # DEPENDENCIES:
 #
 #   CMUS or MPD and MPC
 #
+#   NOTE: MPD and MPC have not been tested yet.
+#
+#   NOTE: You must create a config file in the ~/.config/getmusicstatus directory
+#   with the following content in it:
+#
+#           use={insert cmus or mpc}
+#           delay={insert a time}
+#
+#       HERE IS AN EXAMPLE OF A CONFIG FILE
+#       
+#           use=cmus
+#           delay=5
+#
 # Author: clyde80
 # Updated on: September 13, 2017
-# Website: https://gitlab.com/clyde80/dotfiles
+# Website: https://github.com/clyde80/dotfiles
 #
 # To file a bug report, create an issue on GitLab:
-# https://gitlab.com/clyde80/dotfiles/issues
+# https://github.com/clyde80/dotfiles/issues
 #
 # To submit a bug fix, create a pull request or feature fix, create a merge request:
-# https://gitlab.com/clyde80/dotfiles/merge_requests
+# https://github.com/clyde80/dotfiles/merge_requests
 
 # Source the config file
 
