@@ -1,6 +1,6 @@
 # dotfiles
 
-![Screenshot](https://i.imgur.com/UPZcJYn.png)
+![Screenshot](https://i.imgur.com/tQ0vrlo.png)
 
 ## Dependencies
 
